@@ -1,0 +1,85 @@
+    /* BOX ANIMATION */
+
+/* body{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.magic{
+    background-color: #f93;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    transition: 0.4s ease;
+}
+
+.boxes.big{
+    width: 600px;
+    height: 600px;
+}
+
+
+
+.box{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHmklWCsY6sTDgS1Gxv-pZ4aEaCOgtvgOzg&usqp=CAU');
+    width: 125px;
+    height: 125px;
+    position: relative;
+    background-size: 500px 500px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 500px;
+
+}
+
+.square{
+    background-color: #3b3b3b;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    transition: 2s ease;
+}
+
+.square:hover{
+    transition-duration: 0s;
+}
